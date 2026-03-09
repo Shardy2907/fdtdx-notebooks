@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     'fdtdx@git+https://github.com/ymahlau/fdtdx.git',
-    'ipywidgets'
+    "jax[cuda]",
+    "jupyterlab",
+    'ipywidgets',
 ]
